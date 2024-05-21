@@ -11,7 +11,7 @@ use Livewire\Component;
 #[Title('Users')]
 class UsersPage extends Component
 {
-    public $user;
+    public User $user;
 
     public function mount(User $user)
     {
