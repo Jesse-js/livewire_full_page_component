@@ -2,8 +2,12 @@
 
 namespace App\Livewire;
 
+use Livewire\Attributes\Layout;
+use Livewire\Attributes\Title;
 use Livewire\Component;
 
+#[Layout('layout.app')]
+#[Title('Users')]
 class UsersPage extends Component
 {
     public function render()
